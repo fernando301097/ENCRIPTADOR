@@ -1,0 +1,65 @@
+header{
+    background: linear-gradient();
+}
+
+body{
+    background: #E9ECF8;
+    
+}
+.logo{
+    position: relative;
+    width: 32px;
+    
+    padding: 24px 327px 24px 16px ;
+}
+
+.botones{
+    display: block;
+    position: absolute;
+    top: 869px;
+    left: 221px;
+}
+
+button{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.encriptar{
+    border: none;
+    background: #0A3871;
+    color: white;
+}
+
+.desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    border: solid #0A3871;
+}
+
+.caja{
+    border: none;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    width: 400px;
+    height: 944px;
+    background: white;
+    border-radius: 32px;
+}
+
+.muñeco{
+    position: relative;
+    top: 243px;
+    margin: 32px;
+}
+
+fieldset{
+    position: relative;
+    
+}
+
