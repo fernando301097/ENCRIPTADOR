@@ -2,53 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Encriptador</title>
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconect" href="https://fonts.googleapis.com">
+    <link rel="preconect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div>
-            <h1><img class="logo" src="imagenes/Vector.png" alt=""></h1>
+            <h1><img class="logo" src="imagenes/logo.png" alt=""></h1>
         </div>
     </header>
 
     <main>
-        <form action="">
-            <label for="">Ingrese el texto aquí</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
             <div class="botones">
-            <h2>Solo letras minúsculas y sin acentos</h2>
-            <button class="encriptar">
-                Encriptar 
-            </button>
-            <button class="desencriptar">
-                Desencriptar
-            </button>
-
-        </div>
-        </form>
-
-        
-
-        <div class="caja">
-            <img class="muñeco" src="imagenes/Muñeco.png" alt="">
-            <fieldset>
-                <p>Ningún mensaje fue encontrado</p>
-                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-            </fieldset>
-           
-        </div>
-            
-            
-        </form>
-
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">desencriptar</button>
+            </div>
+        </section>
+        <section class="respo">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
     </main>
-
-    
+<script src="/script.js"></script>
+   
 </body>
 </html>
